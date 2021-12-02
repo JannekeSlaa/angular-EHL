@@ -18,8 +18,8 @@ export class SimpleLoopComponent implements OnInit {
   update() {
     this.clear();
     for (let index = 0; index < this.aantal; index++) {
-      //this.antwoord = this.input * index;
-      this.texts.push(this.input);
+      this.antwoord = this.input * index;
+      this.texts.push(this.antwoord);
     }
     console.log(this.texts);
   }

@@ -1,0 +1,12 @@
+div.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  background-color: chocolate;
+}
+
+a.navlink {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,5 @@
+<h1>Dit is de tafelmachine!</h1>
+Voer een getal in en de tafel rolt eruit.
+<input [(ngModel)]="input" (keyup.enter)="update()" /> X
+<input [(ngModel)]="aantal" (keyup.enter)="update()" />
+<div *ngFor="let text of texts">{{ text }}</div>
